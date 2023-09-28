@@ -1532,7 +1532,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 189.865 70.485 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom no) (on_board no) (dnp yes)
     (uuid 00000000-0000-0000-0000-000056d72f1c)
     (property "Reference" "J111" (at 189.865 62.865 0)
       (effects (font (size 0.9 0.9)))
@@ -1786,7 +1786,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 242.57 65.405 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom no) (on_board no) (dnp yes)
     (uuid 4becb64b-d84a-4244-bf69-c88055f4ad17)
     (property "Reference" "J108" (at 242.57 52.705 0)
       (effects (font (size 0.9 0.9)))
@@ -1918,7 +1918,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 242.57 39.37 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom no) (on_board no) (dnp yes)
     (uuid 65639710-b76e-45fd-b614-f539faaefee7)
     (property "Reference" "J104" (at 242.57 29.21 0)
       (effects (font (size 0.9 0.9)))
@@ -2147,31 +2147,6 @@
       (project "stm32f4_uno_poe"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0102") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 247.65 31.75 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8509ee40-bd0f-447f-9c21-dc9976ca97a5)
-    (property "Reference" "#PWR0106" (at 254 31.75 0)
-      (effects (font (size 0.9 0.9)) hide)
-    )
-    (property "Value" "GND" (at 252.095 31.75 90)
-      (effects (font (size 0.9 0.9)))
-    )
-    (property "Footprint" "" (at 247.65 31.75 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Datasheet" "" (at 247.65 31.75 0)
-      (effects (font (size 1 1)))
-    )
-    (pin "1" (uuid 03e32173-7167-4ffd-8215-acc521d99bde))
-    (instances
-      (project "stm32f4_uno_poe"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0106") (unit 1)
         )
       )
     )
