@@ -7,7 +7,7 @@
   (title_block
     (title "STM32F4 Uno PoE")
     (date "2023-10-02")
-    (rev "1.0.x-dev")
+    (rev "1.0.0")
     (company "easy-smart solution GmbH")
   )
 
@@ -4183,7 +4183,7 @@
     (property "Manufacturer" "MDD" (at 65.405 29.21 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Partnumber" "SS210" (at 65.405 29.21 0)
+    (property "Partnumber" "SS220" (at 65.405 29.21 0)
       (effects (font (size 1 1)) hide)
     )
     (property "JLCPCB Part #" "C7420361" (at 65.405 29.21 0)
